@@ -2,6 +2,7 @@ from pymongo import MongoClient
 from pymongo.collection import Collection
 from Configurations import Config
 
+
 MONGODB_URI = Config.mongodb_uri()
 # print(f"Connecting to MongoDB at {MONGODB_URI}")
 print(f"Connecting to MongoDB.....")

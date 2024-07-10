@@ -3,6 +3,7 @@ from datetime import datetime
 from typing import Union
 from Helper import parse_datetime
 
+
 class TimeRange(BaseModel):
     """
     A Pydantic model that represents a time range with start and end times.

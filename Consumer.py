@@ -5,6 +5,7 @@ from pymongo.collection import Collection
 from ConnectMongo import collection
 from Configurations import Config
 
+
 class RabbitMQState:
     """
     A class to maintain the state of the RabbitMQ connection and channel.

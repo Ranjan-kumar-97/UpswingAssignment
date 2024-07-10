@@ -2,6 +2,7 @@
 
 This Project is made as an assignment of Upswing to develop a client-server script in Python that handles MQTT messages via RabbitMQ. The client script should emit MQTT messages every second containing a field "status" with a random value in the range of 0-6. The server should process these messages and store them in MongoDB. Additionally, the server should provide an endpoint to accept start and end times and return the count of each status during the specified time range.
 
+
 ## Table of Contents
 
 - [Installation](#installation)

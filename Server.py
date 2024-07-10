@@ -8,7 +8,6 @@ from Models import TimeRange
 from Consumer import consume, rabbitmq_state
 from StatusCounts import get_status_counts
 
-# Initialize the FastAPI server
 Server = FastAPI()
 
 @asynccontextmanager

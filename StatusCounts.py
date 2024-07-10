@@ -3,6 +3,7 @@ from fastapi.responses import JSONResponse
 from Models import TimeRange
 from ConnectMongo import collection
 
+
 async def get_status_counts(time_range: TimeRange):
     """
     Get the count of each status within a specified time range.
