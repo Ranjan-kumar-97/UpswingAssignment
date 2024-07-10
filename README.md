@@ -13,7 +13,8 @@ This Project is made as an assignment of Upswing to develop a client-server scri
 ## Installation
 
 1. Clone the repository:
-    git clone https://github.com/yourusername/fastapi-rabbitmq-mongodb.git
+    git clone https://github.com/Ranjan-kumar-97/UpswingAssignment.git
+
 
 2. Create a virtual environment and activate it:
     python -m venv environment
@@ -25,12 +26,18 @@ This Project is made as an assignment of Upswing to develop a client-server scri
 
 4. Set up environment variables by creating a `.env` file in the root directory with the following content:
 
-    MONGODB_USERNAME=your_mongodb_username
-    MONGODB_PASSWORD=your_mongodb_password
-    MONGODB_CLUSTER=your_mongodb_cluster
-    MONGODB_DBNAME=your_mongodb_dbname
-    MONGODB_COLLECTION=your_mongodb_collection
-    CLOUDAMQP_URL=your_cloudamqp_url
+- `CLOUDAMQP_URL`: Your RabbitMQ CloudAMQP URL
+- `MQTT_BROKER`: Your MQTT Broker
+- `MQTT_PORT`: MQTT Port Number
+- `MQTT_TOPIC`: MQTT Answer Topic
+- `MQTT_USERNAME`: Your MQTT username
+- `MQTT_PASSWORD`: Your MQTT username
+
+- `MONGODB_USERNAME`: Your MongoDB username
+- `MONGODB_PASSWORD`: Your MongoDB password
+- `MONGODB_CLUSTER`: Your MongoDB cluster address
+- `MONGODB_DBNAME`: Your MongoDB database name
+- `MONGODB_COLLECTION`: Your MongoDB collection name
 
 ## Usage
 
@@ -78,6 +85,23 @@ Retrieves the count of each status within a specified time range.
         "6": 1
     }
     ```
+## Environment Variables
+
+Ensure you have the following environment variables set in your `.env` file:
+
+- `CLOUDAMQP_URL`: Your RabbitMQ CloudAMQP URL
+- `MQTT_BROKER`: Your MQTT Broker
+- `MQTT_PORT`: MQTT Port Number
+- `MQTT_TOPIC`: MQTT Answer Topic
+- `MQTT_USERNAME`: Your MQTT username
+- `MQTT_PASSWORD`: Your MQTT username
+
+- `MONGODB_USERNAME`: Your MongoDB username
+- `MONGODB_PASSWORD`: Your MongoDB password
+- `MONGODB_CLUSTER`: Your MongoDB cluster address
+- `MONGODB_DBNAME`: Your MongoDB database name
+- `MONGODB_COLLECTION`: Your MongoDB collection name
+
 
 ## Project Structure
 
